@@ -23,11 +23,18 @@ div.eg {
   margin-top: 5px;
   padding: 10px;
   border-radius: 10px;
-  background-color: hsla(0, 0%, 100%, 0.6);
+  background-color: hsla(0, 0%, 100%, 0.7);
 }
 
 body {
 background: white url(background1.jpg) repeat top left;
 font-family: arial;
 font-size: 14px;
+}
+
+.output {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }

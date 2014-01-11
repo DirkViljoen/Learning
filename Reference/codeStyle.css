@@ -6,7 +6,8 @@
   border-radius: 5px;
   width: 500px;
   box-shadow: 1px 1px #999;
-  background-color: #eee
+  background-color: #eee;
+  margin-left: 20px;
 }
 
 .html .element {

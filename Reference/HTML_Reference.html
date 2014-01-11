@@ -12,8 +12,10 @@
 <body>
   <div id="main">
 
+    <h1>HTML reference page</h1>
+
     <div id="basic">
-      <h2>Basic HTML Layout</h2>
+      <h2>Basic HTML document Layout</h2>
       <code class="html">
         <pre>
 
@@ -24,7 +26,7 @@
     &lt;/<span class="element">head</span>&gt;
 
     &lt;<span class="element">body</span>&gt;
-      &lt;<span class="element">a</span> <span class="attribute">href</span>=<span class="string">"local"</span>&gt;Normal text&lt;<span class="element">a</span>&gt;
+      Visible text
     &lt;/<span class="element">body</span>&gt;
   &lt;/<span class="element">html</span>&gt;
         </pre>
@@ -33,14 +35,48 @@
 
     <div id="basicTags">
 
-      <h1>Different Headers. This one is Header 1 (h1)</h1>
-      <h2>h2</h2>
-      <h3>h3</h3>
-      <h4>h4</h4>
-      <h5>h5</h5>
-      <h6>Last but not least : h6</h6>
+      <h2>Basic HTML tags</h2>
+      <h3>Headers</h3>
 
-      <p>Lets get some paragraphs going. Lots and lost of text. bla bla bla</p>
+      <div class="output">
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+      </div>
+
+      <code class="html">
+        <pre>
+
+  &lt;<span class="element">h1</span>&gt;Header 1&lt;<span class="element">h1</span>&gt;
+  &lt;<span class="element">h2</span>&gt;Header 2&lt;<span class="element">h2</span>&gt;
+  &lt;<span class="element">h3</span>&gt;Header 3&lt;<span class="element">h3</span>&gt;
+  &lt;<span class="element">h4</span>&gt;Header 4&lt;<span class="element">h4</span>&gt;
+  &lt;<span class="element">h5</span>&gt;Header 5&lt;<span class="element">h5</span>&gt;
+  &lt;<span class="element">h6</span>&gt;Header 6&lt;<span class="element">h6</span>&gt;
+        </pre>
+      </code>
+
+      <h3>Paragraphs, breaks and comments</h3>
+
+      <div class="output">
+        <p>This is a paragraph. You can insert a lot of text and the browser will wrap it for you.</p>
+        <p>Linebreaks add returns <br /> or whitespace in the document. Linebreaks do not have closing tags</p>
+        <p>Horizontal rules add spacing with a line. <hr /> Horizontal rules do not have closing tags</p>
+        <p>&lt;!-- This is a comment --&gt;</p>
+      </div>
+
+      <code class="html">
+        <pre>
+
+  &lt;<span class="element">p</span>&gt;Paragraph&lt;<span class="element">p</span>&gt;
+  &lt;<span class="element">br</span> /&gt;
+  &lt;<span class="element">hr</span> /&gt;
+  &lt;!-- Comment start and comment end --&gt;
+        </pre>
+      </code>
 
     </div>
 
