@@ -1,0 +1,65 @@
+#menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  margin-left: 5px;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 10px;
+
+  width: 200px;
+}
+
+#menu h4 {
+
+  padding: 0;
+
+  width:150px;
+  background-color: hsla(0, 0%, 100%, 0.6);
+  margin: 5px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#menu hr {
+
+}
+
+#menu ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#menu a {
+  display:block;
+  width:150px;
+  background-color: hsla(0, 0%, 100%, 0.6);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#menu a:link {
+  color: hsla(45, 50%, 100%, 1);
+  text-decoration: none;
+  font-size: 100%;
+}
+
+#menu a:visited {
+  color: hsla(35, 100%, 15%, 1);
+  text-decoration: none;
+  font-size: 100%;
+}
+
+#menu a:hover {
+  color:#e72;
+  text-decoration: none;
+  font-size: 110%;
+}
+#menu a:active {
+  color:#ff6600;
+  text-decoration: none;
+  font-size: 110%;
+}

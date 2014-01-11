@@ -1,0 +1,25 @@
+/*html styling - .element .attribute .string */
+
+.html pre {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 500px;
+  box-shadow: 1px 1px #999;
+  background-color: #eee
+}
+
+.html .element {
+  color: #000;
+  color: hsla(315, 100%, 50%, 1);
+}
+
+.html .attribute {
+  color: #000;
+  color: hsla(135, 100%, 40%, 1);
+}
+
+.html .string {
+  color: #000;
+  color: hsla(45, 90%, 50%, 1);
+}

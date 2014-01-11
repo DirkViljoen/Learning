@@ -1,0 +1,33 @@
+div.eg {
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.eg h3 {
+  color: #e72;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.eg p, address, pre, ul, code{
+  margin: 0;
+}
+
+#main {
+  position: absolute;
+  width: 800px;
+  margin-left: 220px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+background: white url(background1.jpg) repeat top left;
+font-family: arial;
+font-size: 14px;
+}
