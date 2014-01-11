@@ -2,19 +2,20 @@
 
 <html>
 
-	<head>
-		<title>js Functions</title>
+  <head>
+    <title>js Functions</title>
 
-		<script type="text/javascript" src="MyScript.js"></script>
+    <script type="text/javascript" src="MyScript.js"></script>
 
-	</head>
+  </head>
 
-	<body>
-		<h3>You wish you could function like this.</h1>
+  <body>
+    <h3>You wish you could function like this.</h1>
 
-		<p>echo function - <script type="text/javascript">myEcho(prompt('Type something'))</script></p>
-
-		<p>Date function - <script type="text/javascript">getDate()</script></p>
-	</body>
+      <script type="text/javascript">
+        document.write("<p>" + getDate() + "</p>");
+        document.write("<p>" + myEcho(prompt("Enter your name")) + "</p>")
+      </script>
+  </body>
 
 </html>
