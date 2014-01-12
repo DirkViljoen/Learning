@@ -6,16 +6,33 @@
     <title>js Functions</title>
 
     <script type="text/javascript" src="MyScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+    </script>
+    <script>
+      function myFunction() {
+        $("#h01").attr("style","color:red").html("Hello jQuery")
+      }
+      $(document).ready(myFunction);
+    </script>
 
   </head>
 
   <body>
     <h3>You wish you could function like this.</h1>
 
-      <script type="text/javascript">
-        document.write("<p>" + getDate() + "</p>");
-        document.write("<p>" + myEcho(prompt("Enter your name")) + "</p>")
-      </script>
+    <script type="text/javascript">
+      document.write("<p>" + getDate() + "</p>");
+      document.write("<p>" + myEcho(prompt("Enter your name")) + "</p>")
+    </script>
+
+    <p id="demo">My random paragraph</p>
+
+    <script src="MyScript.js"></script>
+
+    <form>
+      <input id="MyButton" type="submit" name="MyButton" onclick="myAlert()">
+    </form>
+
   </body>
 
 </html>

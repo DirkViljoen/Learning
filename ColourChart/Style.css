@@ -1,0 +1,44 @@
+.red div, .blue div, .green div {
+  display: block;
+  background-color: #ddd;
+  border-width:1px;
+  border-radius:7px;
+  width:40px;
+  text-align:center;
+  margin:2px;
+}
+
+.red, .blue, .green {
+  float:left;
+  display: block;
+  background-color: #bbb;
+  border-width:1px;
+  border-radius:7px;
+  text-align:center;
+  margin:3px;
+  padding: 5px;
+}
+
+.major, .minor {
+  float:left;
+}
+
+#hex .btn {
+  font-weight: 700;
+}
+
+h3 {
+  margin:5px;
+  padding:0;
+}
+
+.red p, .blue p, .green p{
+  margin:5px;
+  padding:0;
+}
+
+#colorBlock {
+  width:400px;
+  height:40px;
+  background-color:#000000;
+}
